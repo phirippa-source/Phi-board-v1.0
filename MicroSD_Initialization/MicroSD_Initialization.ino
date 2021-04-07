@@ -10,10 +10,10 @@ void setup() {
   Serial.println("Initializing SD card...");
 
   if ( !SD.begin(CS_PIN) ) {  // MicroSD card 초기화. 성공하면 True, 실패하면 False 리턴
-    Serial.println("Initialization failed!"); // MicroSD card 소켓이 인식 실패
+    Serial.println("Initialization failed!"); // MicroSD card 소켓 인식 실패
     return;
   }
-  Serial.println("Initialization done.");     // MicroSD card 소켓이 인식 성공
+  Serial.println("Initialization done.");     // MicroSD card 소켓 인식 성공
 }
 
 void loop() {

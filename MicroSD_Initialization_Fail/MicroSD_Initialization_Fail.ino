@@ -15,7 +15,7 @@ void setup() {
     Serial.println("2. reinsert the memory card");// 2. 접촉불량 - 재 삽입
     return;
   }
-  Serial.println("Initialization done.");     // MicroSD card 소켓이 인식 성공
+  Serial.println("Initialization done.");     // MicroSD card 소켓 인식 성공
 }
 
 void loop() {
